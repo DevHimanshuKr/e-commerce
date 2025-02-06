@@ -1,0 +1,496 @@
+/* laptop */
+
+@media screen and (max-width:1366px) {
+
+    /* navbar */
+    nav {
+        width: 90%;
+    }
+
+    /* slider */
+    .swiper-slide h2 {
+        font-size: 3.5em;
+        width: 50%;
+        left: 120px;
+    }
+
+    .swiper-slide img {
+        width: 300px;
+        right: 150px;
+    }
+
+    .col-con {
+        width: 90%;
+    }
+
+    .trendy-con {
+        width: 90%;
+    }
+
+    .shop-box {
+        width: 300px;
+        height: 520px;
+    }
+
+    .t-shop2 {
+        margin-top: 0 !important;
+    }
+
+    .t-more {
+        margin-top: 3vh;
+    }
+
+    .m-w {
+        width: 90%;
+    }
+
+    .m-w-box {
+        width: 610px;
+    }
+
+    .edition {
+        width: 90%;
+    }
+
+    .contact {
+        width: 90%;
+    }
+
+    .footer-con {
+        width: 90%;
+    }
+
+    .c-right-con {
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+
+
+/* mobile */
+
+@media screen and (max-width:765px) {
+
+
+    header {
+        background-color: #ffffff;
+        position: fixed;
+        z-index: 1111;
+        box-shadow: 0px 0px 5px #26262676;
+    }
+
+    /* navbar */
+    nav {
+        width: 90%;
+        height: 8vh;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .res-bar {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .nav-logo img {
+        width: 106px;
+    }
+
+    .nav-user a i {
+        font-size: 1.2rem;
+    }
+
+    .num {
+        width: 14px;
+        height: 14px;
+        font-size: 0.6rem;
+    }
+
+    .nav-links {
+        background-color: #ffffff;
+        backdrop-filter: blur(10px);
+        height: 92vh;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 9999;
+        position: absolute;
+        top: 8vh;
+        left: -55%;
+        transition: all .3s;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links ul a li {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #3333332a;
+        padding: 0px 12px;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .home {
+        color: #262626 !important;
+    }
+
+    .bdr {
+        display: none;
+    }
+
+    .bdr2 {
+        display: none;
+    }
+
+    /* shop btn */
+    .shop {
+        width: 35px;
+        height: 35px;
+        bottom: 15px;
+        left: 15px;
+        font-size: 0.9rem;
+    }
+
+    .shop-num {
+        top: -3;
+        right: -3;
+        width: 15px;
+        height: 15px;
+        font-size: 0.6rem;
+    }
+
+    /* fixed btn */
+    .fixed-btn {
+        width: 35px;
+        height: 35px;
+        right: 15spx;
+        font-size: 0.9rem;
+    }
+
+    /* slider */
+    .swiper-slide h2 {
+        font-size: 1em;
+        width: 60%;
+        line-height: 25px;
+        left: 20px;
+    }
+
+    .swiper-slide img {
+        width: 80px;
+        right: 45px;
+    }
+
+    .swiper-sde {
+        padding: 8px;
+        height: 25vh;
+        margin-top: 9vh;
+    }
+
+    /* collection page */
+
+    .col-con {
+        width: 95%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col-box {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .c-1 {
+        height: 250px;
+    }
+
+    .bg-banner2 {
+        height: 250px !important;
+    }
+
+    .col-deatils {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col-del-box {
+        width: 100%;
+        height: 250px !important;
+    }
+
+    .col-box-2 {
+        gap: 20px;
+    }
+
+    .col-details {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .col-details h6 {
+        font-size: 0.9rem;
+    }
+
+    .col-details h4 {
+        font-size: 1.3rem;
+    }
+
+    .col-details a {
+        font-size: 0.8rem;
+    }
+
+    .c-1 {
+        background: #eef0f2;
+    }
+
+    .bdr-hvr {
+        position: relative;
+    }
+
+    .bdr-hvr img {
+        object-fit: contain;
+    }
+
+    .bnr-2 {
+        position: absolute !important;
+        bottom: -10px;
+        left: -70px;
+        scale: 1.5;
+    }
+
+    .kids {
+        background-color: #e7e6e4;
+    }
+
+    .kids-i {
+        position: absolute !important;
+        right: -40px;
+        scale: 1.1;
+    }
+
+
+    /* collection page end */
+
+
+    /* trendy page */
+
+    .trendy-con {
+        width: 90%;
+    }
+
+    .t-shop {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .shop-box {
+        width: 140px;
+        height: 350px;
+    }
+
+    .t-shop2 {
+        margin-top: 3vh !important;
+    }
+
+    .add {
+        opacity: 1;
+        visibility: visible;
+        height: 50px;
+        font-size: 0.8rem;
+        bottom: 15px;
+    }
+
+    .t-hding {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    .t-links ul li {
+        font-size: 0.9rem;
+    }
+
+    .link-1 {
+        font-size: 0.8rem;
+    }
+
+    .link-2 {
+        font-size: 0.9rem;
+    }
+
+    .size {
+        margin-top: 15px;
+    }
+
+    .size p {
+        font-size: 0.7rem;
+        width: 20px;
+        height: 20px;
+    }
+
+    .prize {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .t-more {
+        margin-top: 0;
+    }
+
+    .t-more a {
+        font-size: 0.9rem;
+    }
+
+    /* trendy page end */
+
+
+    /* men whomen  */
+
+    .m-w {
+        flex-wrap: wrap;
+        gap: 20px;
+        height: fit-content;
+    }
+
+    .m-w-box {
+        height: 250px;
+    }
+
+
+    .men {
+        background-color: #ebebeb;
+    }
+
+    .men img {
+        position: absolute;
+        left: 60px;
+    }
+
+    .m-w-content {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .m-w-content h6 {
+        font-size: 0.6rem;
+    }
+
+    .m-w-content h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .m-w-content a {
+        font-size: 0.8rem;
+    }
+
+    .l-2 {
+        display: none;
+    }
+
+    .l-3 {
+        display: none;
+    }
+
+    .l-4 {
+        display: none;
+    }
+
+    .l-res {
+        width: 100%;
+        height: 550px;
+    }
+
+    /* men whomen end  */
+
+
+
+
+    /* contact */
+
+    .contact-con {
+        margin-top: 10vh;
+    }
+
+    .c-details {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .c-heading {
+        margin-bottom: 50px;
+    }
+
+    /* contact end */
+
+
+
+
+    /* footer */
+    footer {
+        height: fit-content;
+    }
+
+    .footer-con {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .f-l-main {
+        height: fit-content;
+    }
+
+    .f-l-main {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        height: fit-content;
+        margin-bottom: 25px;
+    }
+
+    .l-1 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .c-right-con {
+        width: 90%;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .c-right {
+        margin: 20px 0px;
+    }
+
+    .c-1 {
+        height: fit-content;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .c-2 {
+        text-align: center;
+        margin-top: 8px;
+    }
+
+
+}
+
+/* footer end */
